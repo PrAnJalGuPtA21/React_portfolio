@@ -10,8 +10,6 @@ import { themeContext } from "../../Context";
 
 import { Link } from "react-scroll";
 const Intro = () => {
-  // Transition
-  const transition = { duration: 2, type: "spring" };
 
   // context
   const theme = useContext(themeContext);
@@ -28,8 +26,8 @@ const Intro = () => {
           <span>
             Hello, I'm Pranjal, a passionate and ambitious software developer with a fresh perspective and a hunger for innovation. I am thrilled to embark on this exciting journey in the world of technology, where I constantly seek to expand my skills and make a meaningful impact through code.
             My journey into the world of software development began with a fascination for problem-solving.
-            What truly excites me about software development is its potential to create solutions that improve lives and simplify complex processes. 
-            I've honed my skills in a variety of programming languages and technologies, including <span style={{fontSize : "1rem"}}>C++ , React.js , Bootstrap  , Javascript ,C , Node.js , Express.js , Wordpress, MongoDB.</span>
+            What truly excites me about software development is its potential to create solutions that improve lives and simplify complex processes.
+            I've honed my skills in a variety of programming languages and technologies, including <span style={{ fontSize: "1rem" }}>C++ , React.js , Bootstrap  , Javascript ,C , Node.js , Express.js , Wordpress, MongoDB.</span>
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -45,7 +43,7 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={boy} alt="" className="block" />
+        <img src={boy} alt="" className="block"/>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
           className="blur"
@@ -63,3 +61,5 @@ const Intro = () => {
 };
 
 export default Intro;
+
+
