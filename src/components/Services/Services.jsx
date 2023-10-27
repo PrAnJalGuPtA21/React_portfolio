@@ -70,13 +70,14 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Programming Languages "}
+            heading={"Programming "}
             detail={<div style={{marginTop:"-20px"}}>
               <ul style={{listStyle:"none" , padding:"2px"}}>
                 <li>C</li>
                 <li>C++</li>
                 <li>Python</li>
                 <li>Java</li>
+                <li>OOPs Concepts</li>
               </ul>
             </div>
             }
