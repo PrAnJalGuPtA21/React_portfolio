@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>My Recent</span>
+      <span style={{ color: darkMode ? 'white' : '' }}>My Recent</span>
       <span>Projects</span>
 
       {/* slider */}
@@ -25,18 +25,22 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <a href="https://weather-app-sooty-alpha.vercel.app/">
-          <img src={weather} alt="weather app" />
+            <img src={weather} alt="weather app" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={grocery} alt="grocery bazaar" />
+          <a href="https://snoopy-store.vercel.app/">
+            <img src={grocery} alt="e-commerce" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={portfolio} alt="portfolio" />
+          <a href="https://pranjal-gupta.vercel.app/">
+            <img src={portfolio} alt="portfolio" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://moviesite-ten.vercel.app/login">
-          <img src={movie} alt="movie site" />
+            <img src={movie} alt="movie site" />
           </a>
         </SwiperSlide>
       </Swiper>
