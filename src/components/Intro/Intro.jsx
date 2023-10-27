@@ -27,7 +27,7 @@ const Intro = () => {
             Hello, I'm Pranjal, a passionate and ambitious software developer with a fresh perspective and a hunger for innovation. I am thrilled to embark on this exciting journey in the world of technology, where I constantly seek to expand my skills and make a meaningful impact through code.
             My journey into the world of software development began with a fascination for problem-solving.
             What truly excites me about software development is its potential to create solutions that improve lives and simplify complex processes.
-            I've honed my skills in a variety of programming languages and technologies, including <span style={{ fontSize: "1rem" }}>C++ , React.js , Bootstrap  , Javascript ,C , Node.js , Express.js , Wordpress, MongoDB.</span>
+            I've honed my skills in a variety of programming languages and technologies.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
